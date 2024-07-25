@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chai": "^4.5.0",
     "mocha": "^10.7.0"
   },
   "scripts": {
