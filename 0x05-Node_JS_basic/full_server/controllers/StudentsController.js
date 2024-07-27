@@ -25,7 +25,7 @@ class StudentsController {
     const path = process.argv[2];
     const { major } = req.params;
     if (!majors.includes(major)) {
-      res.status(400).send('Major parameter must be CS or SWE');
+      res.status(500).send('Major parameter must be CS or SWE');
       return;
     }
     try {
