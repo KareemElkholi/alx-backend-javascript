@@ -17,7 +17,6 @@ const readDatabase = (path) => new Promise((resolve, reject) => {
     resolve(fields);
   } catch (error) {
     reject(new Error('Cannot load the database'));
-    console.log(error)
   }
 });
 
